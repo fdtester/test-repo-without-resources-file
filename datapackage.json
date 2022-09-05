@@ -1,0 +1,21 @@
+{
+   "name":"package-without-resource-file",
+   "resources":[
+      {
+         "name":"first-resource",
+         "path":"table.xls",
+         "schema":{
+            "fields":[
+               {
+                  "name":"id",
+                  "type":"number"
+               },
+               {
+                  "name":"name",
+                  "type":"string"
+               }
+            ]
+         }
+      }
+   ]
+}
